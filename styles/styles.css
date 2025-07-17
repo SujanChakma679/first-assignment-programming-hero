@@ -174,7 +174,7 @@ header{
  }
 
  /* footer */
-/* .anchor{
+.anchor{
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -192,7 +192,7 @@ footer{
 .footer-logo{
     font-size: 70px;
     color: #4E47FF;
-} */
+}
 
 
 
