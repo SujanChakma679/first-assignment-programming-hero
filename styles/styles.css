@@ -59,3 +59,141 @@ header{
     padding-left: 267px;
     padding-right: 276px;
 }
+
+/* main styles */
+.action-main{
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.wc-mini-pic{
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 220px;
+}
+
+.action-paragraph, .user-paragraph{
+    color: #757575;
+    font-size: 14px;
+    width: 300px;
+
+}
+.action-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* user style */
+.user-title {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.users {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.users li {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.user-header {
+  font-size: 40px;
+  color: #4E47FF;
+  margin: 0; 
+}
+
+.user-paragraph {
+  font-size: 12px;
+  margin: 0; 
+}
+
+.productive-user {
+  background-color: #f0f0f0;
+  width: 900px;
+  height: 200px;
+  margin: 20px auto; 
+  text-align: center;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+/* get in touch style */
+
+.touch-title{
+    font-size: 30px;
+}
+.touch-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 100px 30px 100px;
+    
+}
+
+ form .input label{
+    display:block;
+    
+}
+
+.input{
+    border: none;
+}
+
+.ename{
+    height: 30px;
+    width: 300px;
+}
+.text{
+    width: 300px;
+}
+ .touch-button{
+    background-color: #4E47FF;
+    color: #f0f0f0;
+    margin-top: 5px;
+    margin-left: 12px;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    
+ }
+
+ /* footer */
+/* .anchor{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-decoration: none;
+}
+.anchor a {
+  text-decoration: none;
+}
+
+footer{
+   text-align: center; 
+   
+   
+}
+.footer-logo{
+    font-size: 70px;
+    color: #4E47FF;
+} */
+
+
+
+
