@@ -106,12 +106,14 @@ header{
   display: flex;
   flex-direction: column; 
   align-items: center; 
+  margin-bottom: 40px;
 }
 
 .user-header {
   font-size: 40px;
   color: #4E47FF;
-  margin: 0; 
+  text-align: center;
+  margin: 0;
 }
 
 .user-paragraph {
@@ -130,6 +132,42 @@ header{
   flex-direction: column;
   justify-content: center; 
 }
+
+/* user comment */
+.users-title{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+    padding: 20px;
+}
+.users-review{
+    height: 230px;
+    width: 399px;
+}
+.review{
+    font-size: 12px;
+}
+.reviewer-part{
+    display: flex;
+    gap: 8px;
+}
+.reviewer-pic{
+    border-radius: 50%;
+}
+.reviewer-name{
+    font-weight: bold;
+    color: #757575;
+}
+.date{
+    color: #757575;
+}
+
+.all-reviews{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
 
 /* get in touch style */
 
